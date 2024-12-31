@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Tab System with GSAP — Osmo</title>
+  <link rel='stylesheet' href='https://slater.app/10324/23333.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="cloneable">
+    <div data-tabs="wrapper" class="tab-layout">
+      <div class="tab-layout-col">
+        <div class="tab-layout-container">
+          <div class="tab-container">
+            <div class="tab-container-top">
+              <h1 class="tab-layout-heading">Unleash Your Potential with Opulence</h1>
+              <div data-flip-button="wrap" data-tabs="nav" class="filter-bar"><button data-tabs="button" data-flip-button="button" class="filter-button active">
+                  <div class="filter-button__p">Diet Database</div>
+                  <div data-flip-button="bg" class="tab-button__bg"></div>
+                </button><button data-tabs="button" data-flip-button="button" class="filter-button">
+                  <div class="filter-button__p">Blockchain Integration</div>
+                </button><button data-tabs="button" data-flip-button="button" class="filter-button">
+                  <div class="filter-button__p">Earn as You Train</div>
+                </button></div>
+            </div>
+            <div class="tab-container-bottom">
+              <div data-tabs="content-wrap" class="tab-content-wrap">
+                <div data-tabs="content-item" class="tab-content-item active">
+                  <h2 data-tabs-fade="" class="tab-content__heading">Built in Database</h2>
+                  <p data-tabs-fade="" class="content-p opacity--80">We’ve collaborated with top fitness experts to create our own comprehensive, integrated food calorie database.</p>
+                </div>
+                <div data-tabs="content-item" class="tab-content-item">
+                  <h2 data-tabs-fade="" class="tab-content__heading">SOL Blockchain</h2>
+                  <p data-tabs-fade="" class="content-p opacity--80">we are currently working on integerating the SOL blockchain for its low fees and fast speed.</p>
+                </div>
+                <div data-tabs="content-item" class="tab-content-item">
+                  <h2 data-tabs-fade="" class="tab-content__heading">Crypto Launch</h2>
+                  <p data-tabs-fade="" class="content-p opacity--80">we will share our profits through crypto launches each month to our users through our own coin.</p>
+                </div>
+              </div>
+              <a id="form-button" href="" class="tab-content__button w-inline-block">
+                <p class="content-p">Early Access Sign up</p>
+                <div class="content-button__bg"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-layout-col">
+        <div data-tabs="visual-wrap" class="tab-visual-wrap">
+          <div data-tabs="visual-item" class="tab-visual-item active"><img src="https://images.pexels.com/photos/12499375/pexels-photo-12499375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" class="tab-image"></div>
+          <div data-tabs="visual-item" class="tab-visual-item"><img src="https://forkast.news/wp-content/uploads/2021/08/Solana-1260x787.png" loading="lazy" class="tab-image"></div>
+          <div data-tabs="visual-item" class="tab-visual-item"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" loading="lazy" class="tab-image"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
