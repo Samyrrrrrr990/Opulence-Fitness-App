@@ -1,17 +1,10 @@
 /* ------- Osmo [https://osmo.supply/] ------- */
 /* Osmo UI: https://slater.app/10324/23333.css */
 
-:root {
-  --color-black: #000000;
-  --color-light: #ffffff;
-  --size-font: 16px; /* Adjust this as needed */
-  --container-padding: 20px; /* Adjust this as needed */
-}
-
 body {
-  background-color: var(--color-black, #000000); /* Fallback to black if variable isn't set */
-  color: var(--color-light, #ffffff); /* Fallback to white if variable isn't set */
-  font-size: var(--size-font, 16px); /* Default font size */
+  background-color: var(--color-black);
+  color: var(--color-light);
+  font-size: var(--size-font);
   font-family: arial, sans-serif;
 }
 
@@ -151,7 +144,7 @@ body {
   z-index: 1;
   font-size: 1.125em;
   position: relative;
-  color: var(--color-light);
+  color:var(--color-light);
 }
 
 .tab-visual-wrap {
